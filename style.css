@@ -1,0 +1,181 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(header.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li{
+    display: flex;
+    float: right;
+    border: solid 2px transparent;
+    margin: 5px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background: white;
+    color: black;
+}
+
+ul li.active a{
+    background: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+.brand{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.brand h1{
+font-size: 50px;
+}
+
+.links{
+    display: inline-block;
+    margin-left: 44%;
+    border: solid 2px whitesmoke;
+    padding: 4px 3px 0 3px;
+}
+
+.about{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.skills{
+    color: white;
+    font-weight: bold;
+    margin-left: 40%;   
+}
+
+.mskills{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    border: solid 2px whitesmoke;
+    margin-left: 40%;
+}
+
+.link{
+    display: inline-block;
+    margin-left: 39%;
+    border: solid 2px whitesmoke;
+    padding: 4px 3px 0 3px;   
+}
+
+.contact{
+    color: white;
+    font-size: 25px;
+}
+
+.co{
+    color: white;
+}
+
+.lin{
+    display: inline-block;
+    margin-left: 42%;
+    border: solid 2px whitesmoke;
+    padding: 4px 3px 0 3px;   
+}
+
+@media screen and (max-width: 600px){
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(headers.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .brand h1{
+        font-size: 40px;
+    }
+
+    .brand h2{
+        font-size: 12px;
+    }
+
+    li{
+        display: inline-block;
+        float: right;
+        border: solid 2px transparent;
+        margin: auto;
+    }
+
+    .links{
+        display: inline-block;
+        margin-left: 24%;
+        border: solid 2px whitesmoke;
+        padding: 4px 3px 0 3px;
+    }
+
+    li{
+        display: ruby-base-container;
+        float: right;
+        border: solid 2px transparent;
+        margin-right: 5px;
+        font-size: auto;
+    }
+
+    .about{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .mskills{
+        color: white;
+        font-weight: bolder;
+        font-size: 40px;
+        border: solid 2px whitesmoke;
+        margin-left: 32%;
+    }
+
+    .skills{
+        color: white;
+        font-weight: bold;
+        margin-left: 32%;   
+    }
+
+    .link{
+        display: inline-block;
+        margin-left: 25%;
+        border: solid 2px whitesmoke;
+        padding: 4px 3px 0 3px;   
+    }
+
+    .contact{
+        color: white;
+        font-size: 18px;
+    }
+
+    .lin{
+        display: inline-block;
+        margin-left: 25%;
+        border: solid 2px whitesmoke;
+        padding: 4px 3px 0 3px;   
+    }
+}
